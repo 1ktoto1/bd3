@@ -7,7 +7,7 @@ import chart_studio.dashboard_objs as dashboard
 
 chart_studio.tools.set_credentials_file(username='ktoto', api_key='AckP6D0eaUH5z4FPe1GW')
 
-username = 'BD2'
+username = 'BD3'
 password = 'oracle123'
 databaseName = 'localhost/xe'
 
