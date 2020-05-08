@@ -12,13 +12,13 @@ ALTER TABLE Author
 add constraint country_fk FOREIGN KEY (country) REFERENCES Country (country); 
 
 CREATE TABLE Game (
-    game VARCHAR(128) NOT NULL PRIMARY KEY
+    game VARCHAR(256) NOT NULL PRIMARY KEY
     );
 
 CREATE TABLE Map (
     id INT NOT NULL PRIMARY KEY,
     name VARCHAR(128) NOT NULL,
-    game VARCHAR(128) NOT NULL,
+    game VARCHAR(256) NOT NULL,
     rating INT NOT NULL,
     author_name VARCHAR(128) NOT NULL,
     downloads INT NOT NULL,
