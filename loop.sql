@@ -3,7 +3,7 @@ DECLARE
 
 BEGIN
 
- DELETE FROM author;
+ DELETE FROM country;
 
     country := 'country';
     FOR i IN 1..10 LOOP
